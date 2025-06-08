@@ -1,5 +1,5 @@
-import extractJson from "../utils/parseJsonFromText.js";
-import ai from "../config/googleAi.js";
+import {extractJson} from "../utils/parseJsonFromText.js";
+import {ai} from "../config/googleAi.js";
 
 export const generateQuiz = async (req, res, next) => {
   try {

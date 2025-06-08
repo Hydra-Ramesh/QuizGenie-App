@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 export const errorHandler = (err, req, res, next) => {
   let status = 500;
   let message = 'Something went wrong';
